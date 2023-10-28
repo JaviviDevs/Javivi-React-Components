@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavBar } from '../navBar/navBar.jsx';
 import './header.css'
 

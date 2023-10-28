@@ -1,0 +1,15 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin:0px;
+  width: 100%;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin:0px;
+  width: 100%;
+}

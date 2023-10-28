@@ -1,0 +1,69 @@
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    height: 40vh;
+    margin-top:2vh;
+}
+
+.intro-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 65%;
+    height:100%;
+}
+
+.intro-information-h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(45deg, #eeff00, #ff6600, #ff0000); /* Degradado de colores */
+    background-clip: text; /* Aplicar el degradado al texto */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+    color:transparent;
+    font-weight: bolder;
+    font-size: 5rem;
+    margin: 0px;
+}
+
+.intro-information-h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    color:orange;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.intro-information-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+    background: linear-gradient(45deg, #ffd900, #ff6600, #ff0000); 
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition:0.1s all ease;
+}
+
+.intro-information-button:hover{
+    font-size: 1.3rem;
+}
+
+.intro-img{
+    display: flex;
+    width: auto;
+    height: 100%;
+}
