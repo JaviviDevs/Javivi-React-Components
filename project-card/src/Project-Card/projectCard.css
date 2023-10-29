@@ -1,0 +1,102 @@
+.project-card:hover{
+    border: 1px solid rgb(255, 51, 0);
+    box-shadow: 0px 0px 20px rgb(255, 133, 62); /* Box shadow para el efecto de sombra */
+    transform: scale(1.1);
+}
+.project-card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    max-width: 95%;
+    max-height: 70%;
+    border-radius: 8%;
+}
+
+.project-card-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 15%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:rgb(255, 123, 0);
+    margin:0px;
+    text-align: center;
+}
+
+.project-card-technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 95%;
+    height: 15%;
+}
+
+.project-card-techologies-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25px;
+    max-height: 25px;
+    margin:1vw;
+}
+
+/* Estilos para dispositivos móviles (ancho máximo de 768px) */
+@media (max-width: 768px){
+    /* Estilos específicos para móviles */
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80%;
+        height:40vh;
+        border-radius: 5%;
+        text-decoration: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow para el efecto de sombra */
+        padding: 5px; /* Espacio interior de la tarjeta */
+        transition: 0.2s all ease;
+    }
+    
+}
+    
+/* Estilos para tablets (ancho máximo de 1024px) */
+@media (max-width: 1024px) and (min-width:769px){
+    /* Estilos específicos para tablets */
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 24%;
+        height:40vh;
+        border-radius: 5%;
+        text-decoration: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow para el efecto de sombra */
+        padding: 5px; /* Espacio interior de la tarjeta */
+        transition: 0.2s all ease;
+    }
+    
+}
+
+/* Estilos para computadoras de escritorio (ancho mínimo de 1025px) */
+@media (min-width: 1025px) {
+    /* Estilos específicos para escritorio */
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 24%;
+        height:40vh;
+        border-radius: 5%;
+        text-decoration: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow para el efecto de sombra */
+        padding: 5px; /* Espacio interior de la tarjeta */
+        transition: 0.2s all ease;
+    }
+}
