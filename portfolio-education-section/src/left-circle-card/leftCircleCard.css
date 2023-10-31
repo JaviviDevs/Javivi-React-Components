@@ -8,6 +8,7 @@
     border-left: 2px solid rgb(255, 38, 0);
     padding-left:1vw;
     position: relative;
+    
 }
 
 .left-circle-card-h3{
@@ -29,8 +30,8 @@
     width: 12px;
     height: 12px;
     position: absolute;
-    top:45%;
-    left:-1.5%;
+    top:42%;
+    left:-2.4%;
     background-color:orangered;
     border-radius: 100%;
 }
