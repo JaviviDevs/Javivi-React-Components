@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectSection } from './project-section/project-section.jsx';
+import { SectionCardCarrousel } from './Section-Card-Carrousel/sectionCardCarrousel.jsx';
 import './App.css'
 
 
@@ -20,7 +20,7 @@ export function App() {
 
   return (
     <>
-      <ProjectSection title={titleProjectSection} projectCards={projectCards}/>
+      <SectionCardCarrousel title={titleProjectSection} projectCards={projectCards}/>
     </>
     
   )

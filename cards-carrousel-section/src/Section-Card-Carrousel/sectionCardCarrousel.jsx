@@ -1,9 +1,9 @@
 import React from 'react';
 import {ProjectCardsCarrousel} from '../Project-Card-Carrousel/projectCardCarrousel.jsx'
-import './project-section.css'
+import './sectionCardCarrousel.css'
 
 
-export function ProjectSection({title,projectCards}) {
+export function SectionCardCarrousel({title,projectCards}) {
   
   return (
     <article className='projects'>
