@@ -9,7 +9,7 @@ export function EducationSection({title,subtitle,FormationCards}) {
     <article className='education'>
         <span className='orangeborder'></span>
         <h3 className='education-h3'>{title}</h3>
-        <section className='education-row-flexbox'>
+        <section className='education-content'>
           <h4 className='education-h4'>{subtitle}</h4>
           <section className='education-colum-flexbox'>
             {FormationCards.map((card, indx) => (
