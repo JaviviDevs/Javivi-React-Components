@@ -6,8 +6,8 @@ import './educationSection.css'
 export function EducationSection({title,subtitle,FormationCards}) {
   
   return (
-    <article className='education'>
-        <span className='orangeborder'></span>
+    <article className='education' id='Education'>
+        <span className='orangeborder-education'></span>
         <h3 className='education-h3'>{title}</h3>
         <section className='education-content'>
           <h4 className='education-h4'>{subtitle}</h4>

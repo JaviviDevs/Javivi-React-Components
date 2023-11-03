@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 95%;
+    width: 100%;
     height: auto;
 }
 
@@ -17,10 +17,14 @@
     /* Estilos específicos para móviles */
     .project-cards-carrousel-container{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        width: 90%;
-        height:57vh;
+        width: 60%;
+        height: 57vh;
+        padding-left:1vw;
+        padding-right:1vw;
+        gap:35px;
+        overflow: hidden;
     }
 
     .project-cards-carrousel-button{
@@ -36,8 +40,6 @@
         background-color: transparent;
         transition: 0.2 all ease;
         border:1px solid rgb(219, 62, 0);
-        
-    
     }
     
 }
@@ -47,12 +49,16 @@
     /* Estilos específicos para tablets */
     .project-cards-carrousel-container{
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: center;
-        width: 90%;
-        height: 53vh;
+        width: 80%;
+        height: 57vh;
+        padding-left:1vw;
+        padding-right:1vw;
+        gap:35px;
+        overflow: hidden;
     }
-    
+
     .project-cards-carrousel-button{
         display: flex;
         justify-content: center;
@@ -66,8 +72,6 @@
         background-color: transparent;
         transition: 0.2 all ease;
         border:1px solid rgb(219, 62, 0);
-        
-    
     }
 }
 
@@ -76,12 +80,16 @@
     /* Estilos específicos para escritorio */
     .project-cards-carrousel-container{
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: center;
-        width: 90%;
+        width: 80%;
         height: 57vh;
+        padding-left:1vw;
+        padding-right:1vw;
+        gap:35px;
+        overflow: hidden;
     }
-
+    
     .project-cards-carrousel-button{
         display: flex;
         justify-content: center;
@@ -95,7 +103,5 @@
         background-color: transparent;
         transition: 0.2 all ease;
         border:1px solid rgb(219, 62, 0);
-        
-    
     }
 }

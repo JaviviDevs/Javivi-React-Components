@@ -1,14 +1,13 @@
 import React from 'react';
 import {ProjectCardsCarrousel} from '../Project-Card-Carrousel/projectCardCarrousel.jsx'
-import './sectionCardCarrousel.css'
+import './project-section.css'
 
 
-export function SectionCardCarrousel({title,projectCards}) {
+export function ProjectSection({title,projectCards}) {
   
   return (
-    <article className='projects'>
+    <article className='projects' id='Projects'>
         <h3 className='projects-h3'>{title}</h3>
-        <div className='orangeborder'></div>
         < ProjectCardsCarrousel cards={projectCards}/>
     </article>
     

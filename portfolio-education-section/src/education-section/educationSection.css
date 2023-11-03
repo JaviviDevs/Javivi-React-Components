@@ -18,14 +18,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 85%;
+        width: 100%;
         height: 10vh;
         font-size: 2rem;
         color:white;
         border-bottom: 2px solid rgb(255, 81, 0);
     }
    
-    .orangeborder{
+    .orangeborder-education{
         display:none;
     }
 
@@ -43,7 +43,7 @@
         justify-content: center;
         align-items: center;
         width: 85%;
-        height: 20vh;
+        height: auto;
         font-size: 2rem;
         color:white;
         text-align: justify;
@@ -87,13 +87,13 @@
         border-bottom: 2px solid rgb(255, 81, 0);
     }
     
-    .orangeborder{
+    .orangeborder-education{
         position:absolute;
         display: flex;
-        transform: rotate(35deg);
-        background-color: orange;
-        left:55%;
-        top:25%;
+        transform: rotate(125deg);
+        background-color: rgb(160, 59, 0);
+        left:50%;
+        top:60%;
         width: 100%;
         height: 50px;
     }
@@ -101,7 +101,7 @@
     .education-content{
         display: flex;
         justify-content: flex-start;
-        align-items:space-around;
+        align-items:center;
         width: 100%;
         height: auto;
     }
@@ -111,9 +111,10 @@
         justify-content: center;
         align-items: center;
         width: 45%;
-        height: 15vh;
+        height: auto;
         font-size: 2rem;
         color:white;
+        padding-right: 2vw;
     }
     
     .education-column-flexbox{
@@ -154,13 +155,13 @@
         border-bottom: 2px solid rgb(255, 81, 0);
     }
 
-    .orangeborder{
+    .orangeborder-education{
         position:absolute;
         display: flex;
-        transform: rotate(35deg);
-        background-color: orange;
-        left:55%;
-        top:25%;
+        transform: rotate(125deg);
+        background-color: rgb(160, 59, 0);
+        left:50%;
+        top:60%;
         width: 100%;
         height: 50px;
     }
@@ -168,7 +169,7 @@
     .education-content{
         display: flex;
         justify-content: flex-start;
-        align-items:space-around;
+        align-items:center;
         width: 100%;
         height: auto;
     }
@@ -178,9 +179,10 @@
         justify-content: center;
         align-items: center;
         width: 45%;
-        height: 15vh;
+        height: auto;
         font-size: 2rem;
         color:white;
+        padding-right: 2vw;
     }
     
     .education-column-flexbox{
@@ -191,4 +193,5 @@
         width: 45%;
         height: auto;
     }
+
 }
